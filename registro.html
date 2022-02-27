@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/registro.css">
+    <link rel="stylesheet" href="style/general.css">
+
+    <title>Tienda Ropa| Registro</title>
+</head>
+
+<body>
+    <header id="encabezado">
+
+    </header>
+    <main>
+        <div class="cont-principal">
+            <div class="cont-registro">
+                <h2>Información de Pago</h2>
+                <form action="">
+                    <input type="text" id="nombre" placeholder="Nombre Completo">
+                    <input type="text" id="correo" placeholder="Correo Electronico">
+                    <input type="number" min="0" pattern="^[0-9]+" id="numeroTarjeta" placeholder="No. de Tarjeta">
+
+                    <input type="text" id="fechaVencimiento" placeholder="F. Vencimiento MM/AA" style="
+                    width: 11em">
+                    <input type="number" min="0" pattern="^[0-9]+" id="cvv" placeholder="CVV" style="
+                    width: 3em">
+                    </br> 
+                    <button type="button" class=" btn-primary" id="pagar">Pagar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer id="footer-principal">
+
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/cabecera-pie_pagina.js"></script>
+    <script src="script/registro.js"></script>
+</body>
+
+</html>

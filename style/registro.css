@@ -1,0 +1,63 @@
+
+.cont-principal {
+    text-align: center;
+}
+
+.cont-registro {
+    margin: 20px;
+    border-radius: 5%;
+    width: 500px;
+    height: 465px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+
+.cont-registro h2 {
+    margin: 25px;
+    color: black;
+    font-size: 35px;
+}
+
+.cont-registro form input {
+    width: 15em;
+    margin: 8px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.cont-registro form textarea {
+    margin-top: 13px;
+    resize: none;
+    text-align: center;
+}
+
+.cont-registro button {
+    margin: 10px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .cont-registro {
+        width: 80%;
+        height: 460px;
+        margin-bottom: 50px;
+    }
+    .cont-registro h2 {
+        font-size: 25px;
+    }
+    .cont-registro form input {
+        width: 75%;
+    }
+    .cont-registro form textarea {
+        margin-top: 13px;
+        resize: none;
+        text-align: center;
+        width: 75%;
+    }
+}
